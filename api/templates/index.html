@@ -1,60 +1,141 @@
-
 {% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Índice</title>
+    <title>Calculadora Financiera</title>
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'vars.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #3c2273;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .titulo {
+            color: #3c2273;
+            font-weight: bold;
+            text-align: center;
+        }
+        .descripcion {
+            text-align: center;
+            color: #6c757d;
+        }
+        .formulario label {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #3c2273;
+        }
+        .formulario input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        button {
+            background: #3c2273;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .btn-outline {
+            border: 2px solid #3c2273;
+            color: #3c2273;
+        }
+        .btn-outline:hover {
+            background: #3c2273;
+            color: white;
+        }
+        .resultado p {
+            font-size: 1.2em;
+            margin-top: 15px;
+            text-align: center;
+            color: #00d3a4;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #3c2273;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <div class="panel_izq"> </div>
-    <div class="android-large-3">
-        <div class="ellipse-1"></div>
-        <div class="hola-usuario">Hola Usuario 👋</div>
-        <img class="bell" src="{% static 'bell0.svg' %}" />
-        <img class="line-1" src="{% static 'line-10.svg' %}" />
-        <img class="vector" src="{% static 'vector0.svg' %}" />
-        <img class="vector2" src="{% static 'vector1.svg' %}" />
-        <div class="r-pido-y-sin-complicaciones">Rápido y sin complicaciones</div>
-        <div class="transfiere-a-otros-bancos-al-instante">
-          Transfiere a otros bancos al instante
+    <div class="container">
+        <h2 class="titulo">Calculadora Financiera</h2>
+        <p class="descripcion">Toma decisiones inteligentes con nuestra herramienta.</p>
+        
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cuál es la diferencia entre calcular el punto de equilibrio y los precios?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Calcular el punto de equilibrio ayuda a determinar el nivel de ventas necesario para cubrir costos, mientras que calcular precios implica fijar valores óptimos para maximizar ganancias.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        ¿Para qué me sirven estos cálculos?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Estos cálculos permiten evaluar la rentabilidad de un negocio y tomar decisiones estratégicas sobre precios, costos y ventas.
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="rectangle-12"></div>
-        <div class="u">U</div>
-        <div class="rectangle-20"></div>
-        <div class="conoce-c-mo-pagar-sin-internet">
-          Conoce cómo pagar sin internet
+        
+        <div class="formulario mt-3">
+            <label for="monto">Monto ($):</label>
+            <input type="number" id="monto" class="form-control" placeholder="Ingrese el monto">
+            
+            <label for="interes">Tasa de Interés (%):</label>
+            <input type="number" id="interes" class="form-control" placeholder="Ingrese la tasa">
+            
+            <label for="plazo">Plazo (meses):</label>
+            <input type="number" id="plazo" class="form-control" placeholder="Ingrese el plazo">
+            
+            <button class="btn mt-3" onclick="calcular()">Calcular</button>
+            <button class="btn btn-outline mt-3">Restablecer</button>
         </div>
-        <img class="group-3" src="{% static 'group-30.svg' %}" />
-        <img class="rectangle-17" src="{% static 'rectangle-170.svg' %}" />
-        <img class="rectangle-18" src="{% static 'rectangle-180.svg' %}" />
-        <img class="rectangle-19" src="{% static 'rectangle-190.svg' %}" />
-        <div class="transferir">Transferir</div>
-        <div class="deuna-j-venes">Deuna Jóvenes</div>
-        <div class="verificar-pago">Verificar pago</div>
-        <div class="calcu-de-finanzas">Calcu de Finanzas</div>
-        <div class="recargar">Recargar</div>
-        <div class="cobrar">Cobrar</div>
-        <div class="metro-de-quito">Metro de Quito</div>
-        <div class="invita-y-gana">Invita y Gana</div>
-        <img class="image-2" src="{% static 'image-20.png' %}" />
-        <img class="image-3" src="{% static 'image-30.png' %}" />
-        <img class="image-4" src="{% static 'image-40.png' %}" />
-        <img class="image-5" src="{% static 'image-50.png' %}" />
-        <img class="image-6" src="{% static 'image-60.png' %}" />
-        <img class="image-7" src="{% static 'image-70.png' %}" />
-        <img class="image-8" src="{% static 'image-80.png' %}" />
-        <div class="rectangle-16"></div>
-        <div class="saldo-disponible">Saldo disponible</div>
-        <div class="_0-00">$ 0,00</div>
-        <img class="chevron-right" src="{% static 'chevron-right0.svg' %}" />
-        <div class="mis-promociones">Mis promociones</div>
-        <div class="rectangle-122"></div>
-        <div class="rectangle-13"></div>
-        <div class="rectangle-14"></div>
+        
+        <div class="resultado">
+            <p>Pago Mensual: <span id="resultado"></span></p>
+        </div>
     </div>
+
+    <script>
+        function calcular() {
+            let monto = document.getElementById('monto').value;
+            let interes = document.getElementById('interes').value / 100 / 12;
+            let plazo = document.getElementById('plazo').value;
+            
+            if (monto && interes && plazo) {
+                let pagoMensual = (monto * interes) / (1 - Math.pow(1 + interes, -plazo));
+                document.getElementById('resultado').innerText = `$${pagoMensual.toFixed(2)}`;
+            } else {
+                document.getElementById('resultado').innerText = "Ingrese todos los valores";
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
