@@ -1,0 +1,441 @@
+.android-large-3,
+.android-large-3 * {
+  box-sizing: border-box;
+}
+.android-large-3 {
+  background: #ffffff;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: #ded3fb;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 13px;
+  top: 34px;
+}
+.hola-usuario {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bell {
+  width: 20px;
+  height: 19px;
+  position: absolute;
+  left: 283px;
+  top: 45px;
+  overflow: visible;
+}
+.line-1 {
+  width: 0.28%;
+  height: 0%;
+  position: absolute;
+  right: 18.33%;
+  left: 81.39%;
+  bottom: 94.25%;
+  top: 5.75%;
+  transform: translate(-0.5px, -1.5px);
+  overflow: visible;
+}
+.vector {
+  width: 3.89%;
+  height: 1.5%;
+  position: absolute;
+  right: 7.22%;
+  left: 88.89%;
+  bottom: 92.75%;
+  top: 5.75%;
+  overflow: visible;
+}
+.vector2 {
+  width: 3.89%;
+  height: 0.62%;
+  position: absolute;
+  right: 7.22%;
+  left: 88.89%;
+  bottom: 92.5%;
+  top: 6.88%;
+  overflow: visible;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.r-pido-y-sin-complicaciones {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 19px;
+  top: 99px;
+}
+.transfiere-a-otros-bancos-al-instante {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  position: absolute;
+  left: 19px;
+  top: 119px;
+}
+.rectangle-12 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-width: 0.75px;
+  width: 334px;
+  height: 55px;
+  position: absolute;
+  left: 13px;
+  top: 90px;
+}
+.u {
+  color: #483364;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 21px;
+  top: 44px;
+  width: 19px;
+  height: 14px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-20 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-width: 0.75px;
+  width: 334px;
+  height: 62px;
+  position: absolute;
+  left: 12px;
+  top: 287px;
+  box-shadow: 0px 1px 2.8px 0px rgba(0, 0, 0, 0.33);
+}
+.conoce-c-mo-pagar-sin-internet {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: calc(50% - 100px);
+  width: 169px;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+.group-3 {
+  width: 341px;
+  height: 65px;
+  position: absolute;
+  left: 9px;
+  top: 372px;
+  overflow: visible;
+}
+.rectangle-17 {
+  border-radius: 0px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 9px;
+  top: 486px;
+  overflow: visible;
+}
+.rectangle-18 {
+  border-radius: 0px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 78px;
+  top: 486px;
+  overflow: visible;
+}
+.rectangle-19 {
+  border-radius: 0px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 147px;
+  top: 486px;
+  overflow: visible;
+}
+.transferir {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 442px;
+  width: 61px;
+  height: 14px;
+}
+.deuna-j-venes {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 11px;
+  top: 556px;
+  width: 61px;
+  height: 14px;
+}
+.verificar-pago {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 81px;
+  top: 556px;
+  width: 61px;
+  height: 14px;
+}
+.calcu-de-finanzas {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 149px;
+  top: 556px;
+  width: 61px;
+  height: 14px;
+}
+.recargar {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 82px;
+  top: 442px;
+  width: 61px;
+  height: 14px;
+}
+.cobrar {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 149px;
+  top: 442px;
+  width: 61px;
+  height: 14px;
+}
+.metro-de-quito {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 218px;
+  top: 442px;
+  width: 61px;
+  height: 14px;
+}
+.invita-y-gana {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 287px;
+  top: 442px;
+  width: 61px;
+  height: 14px;
+}
+.image-2 {
+  width: 48px;
+  height: 41px;
+  position: absolute;
+  left: 17px;
+  top: 383px;
+  object-fit: cover;
+  aspect-ratio: 48/41;
+}
+.image-3 {
+  width: 43px;
+  height: 45px;
+  position: absolute;
+  left: 89px;
+  top: 383px;
+  object-fit: cover;
+  aspect-ratio: 43/45;
+}
+.image-4 {
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  left: 153px;
+  top: 496px;
+  object-fit: cover;
+  aspect-ratio: 50/45;
+}
+.image-5 {
+  width: 44px;
+  height: 41px;
+  position: absolute;
+  left: 226px;
+  top: 386px;
+  object-fit: cover;
+  aspect-ratio: 44/41;
+}
+.image-6 {
+  width: 34px;
+  height: 41px;
+  position: absolute;
+  left: 300px;
+  top: 386px;
+  object-fit: cover;
+  aspect-ratio: 34/41;
+}
+.image-7 {
+  width: 43px;
+  height: 51px;
+  position: absolute;
+  left: 18px;
+  top: 492px;
+  object-fit: cover;
+  aspect-ratio: 43/51;
+}
+.image-8 {
+  width: 46px;
+  height: 38px;
+  position: absolute;
+  left: 87px;
+  top: 501px;
+  object-fit: cover;
+  aspect-ratio: 46/38;
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-16 {
+  background: #ffffff;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-width: 0.75px;
+  width: 334px;
+  height: 98px;
+  position: absolute;
+  left: 13px;
+  top: 152px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.saldo-disponible {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  left: 25px;
+  top: 167px;
+}
+._0-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 32px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  position: absolute;
+  left: 23px;
+  top: 189px;
+}
+.chevron-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 315px;
+  top: 189px;
+  overflow: visible;
+}
+.mis-promociones {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 13px;
+  top: 617px;
+  width: 246px;
+  height: 34px;
+}
+.rectangle-122 {
+  background: #ded3fb;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(231, 231, 231, 0.7);
+  border-width: 1px;
+  width: 120px;
+  height: 75px;
+  position: absolute;
+  left: 11px;
+  top: 658px;
+  box-shadow: 4px 4px 4px 0px rgba(231, 231, 231, 1);
+}
+.rectangle-13 {
+  background: #ded3fb;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(231, 231, 231, 0.7);
+  border-width: 1px;
+  width: 120px;
+  height: 75px;
+  position: absolute;
+  left: 149px;
+  top: 658px;
+  box-shadow: 4px 4px 4px 0px rgba(231, 231, 231, 1);
+}
+.rectangle-14 {
+  background: #ded3fb;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgba(231, 231, 231, 0.7);
+  border-width: 1px;
+  width: 120px;
+  height: 75px;
+  position: absolute;
+  left: 288px;
+  top: 658px;
+  box-shadow: 4px 4px 4px 0px rgba(231, 231, 231, 1);
+}
